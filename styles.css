@@ -1,0 +1,479 @@
+body {
+	background-color: gray;
+	font-family: 'Lora', serif;
+}
+
+.navbar {
+	background-color: white;
+	width: 1000px;
+	height: 50px;
+	border-bottom: 2px solid gray;
+	position: fixed;
+	line-height: 50px;
+
+}
+.mainnav {
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	word-spacing: 30px;
+	text-align: center;
+	margin: 0 auto;
+	
+}
+
+nav a {
+	text-transform: uppercase;
+	font-size: 18px;
+	word-spacing: 10px;
+	text-align: center;
+}
+
+nav a:link {
+	color: #2B2F26;
+}
+
+nav a:active {
+	color: #968772;
+}
+
+nav a:visted{
+	color: #2B2F26 ;
+}
+
+nav a:hover {
+	color: #CD5D67;
+}
+
+a:link  {
+	color: #968772;
+}
+
+a:hover {
+	color: #967343;
+}
+
+.home .navhome, .about .navabout, .newsletter .navnewsletter {
+	color: #999966;
+}
+
+.logo {
+	background-image: url(./images/bent-creek-logo.png);
+	background-size: 40px 40px;
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-top: 5px;
+}
+
+.logo:hover {
+	background-image: url(./images/bent-creek-logo-coral.png);
+	background-size: 40px 40px;
+	width: 40px
+	height: 40px;
+	float: left;
+	margin-top: 5px;
+}
+
+
+
+header {
+	width: 1000px;
+	height: 175px;
+	margin: 0 auto;
+	background-color: #F2F1E8;
+	font-family: 'Roboto', serif;
+}
+
+
+footer {
+	width: 1000px;
+	height: 75px;
+	margin: 0 auto;
+	background-color: #131511;
+	padding-top: 1px;
+}
+
+.mainfooter {
+	text-align: left;
+	color: #F2F1E8;
+	font-size: 14px;
+	padding: 15px;
+
+}
+
+
+/*//////////////////////////////////////////////////////Home page///////////////////////*/
+
+
+.home header {
+	width: 1000px;
+	height: 250px;
+	margin: 0 auto;
+	background-color: #F2F1E8;
+	font-family: 'Roboto', serif;
+}
+
+.home h1 {
+	text-align: center;
+	font-size: 64px;
+	font-family: 'Lora', serif;
+	padding-top: 85px;
+}
+.home h2 {
+	text-align: center;
+	font: normal 24px 'Lora', serif;
+}
+
+.home .mainpics h2 {
+	text-align: center;
+	font: normal 16px 'Lora', serif;
+}
+.home .container {
+	width: 1000px;
+	height: 600px;
+	background-color: #F2F1E8;
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: center;	
+	margin: 0 auto;
+	margin-left: 116px;
+}
+
+.mainpic1 {
+	background-image: url(./images/product-1.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 480px;
+	height: 350px;
+}
+
+.mainpic2 {
+	background-image: url(./images/product-2.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 208px;
+	height: 350px;	
+}
+
+.mainpic3 {
+	background-image: url(./images/product-3.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 270px;
+	height: 350px;	
+}
+
+.mainpic4 {
+	background-image: url(./images/product-4.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 238px;
+	height: 100%;
+}
+.mainpic5 {
+	background-image: url(./images/product-5.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 238px;
+	height: 100%;	
+}
+
+.mainpic6 {
+	background-image: url(./images/product-6.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 238px;
+	height: 100%;	
+}
+
+.mainpic7 {
+	background-image: url(./images/product-7.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 238px;
+	height: 100%;
+}
+
+.mainpic1cap {
+	width: 175px;
+	height: 15px;
+	color: white; 
+   	font-size: 16px   
+   	background: rgb(0, 0, 0); /* fallback color */
+   	background: rgba(0, 0, 0, 0.7); 
+   	padding: 5px;
+}
+
+.mainpic2cap {
+	width: 100px;
+	height: 15px;
+	color: white; 
+   	font-size: 16px
+   	background: rgb(0, 0, 0); /* fallback color */
+   	background: rgba(0, 0, 0, 0.7);
+   	padding: 5px;
+}
+
+.mainpic3cap {
+	width: 260px;
+	height: 15px;
+	text-align: center;
+	color: white; 
+   	font-size: 16px  
+   	background: rgb(0, 0, 0); /* fallback color */
+   	background: rgba(0, 0, 0, 0.7); 
+   	padding: 5px;
+}
+
+.mainpic4cap {
+	width: 215px;
+	height: 15px;
+	text-align: center;
+	color: white; 
+   	font-size: 16px  
+   	background: rgb(0, 0, 0); /* fallback color */
+   	background: rgba(0, 0, 0, 0.7);
+   	padding: 5px;
+}
+
+.mainpic5cap {
+	width: 215px;
+	height: 15px;
+	text-align: center;
+	color: white; 
+   	font-size: 16px   
+   	background: rgb(0, 0, 0); /* fallback color */
+   	background: rgba(0, 0, 0, 0.7);
+   	padding: 5px;
+}
+
+.mainpic6cap {
+	width: 215px;
+	height: 15px;
+	text-align: center;
+	color: white; 
+   	font-size: 16px 
+   	background: rgb(0, 0, 0); /* fallback color */
+   	background: rgba(0, 0, 0, 0.7);
+   	padding: 5px;
+}
+
+.mainpic7cap {
+	width: 215px;
+	height: 15px;
+	text-align: center;
+	color: white; 
+   	font-size: 16px 
+   	background: rgb(0, 0, 0); /* fallback color */
+   	background: rgba(0, 0, 0, 0.7); 
+   	padding: 5px;
+}
+/*////////////////////////////////////////////////////About Page///////////////*/
+
+.about header {
+	width: 1000px;
+	height: 175px;
+	margin: 0 auto;
+	background-color: #F2F1E8;
+	font-family: 'Roboto', serif;
+}
+.about h1 {
+	text-align: center;
+	font-size: 64px;
+	font-family: 'Lora', serif;
+	padding-top: 85px;
+}
+
+
+.intro {
+	width: 740px;
+	height: 400px;
+	margin: 0 auto;
+	background-color: #F2F1E8;
+	font-family: 'Lora', serif;
+	line-height: 35px;
+	padding: 20px 130px 20px 130px;
+}
+
+.thumbnail1 {
+	float: left;
+	margin: 0px 15px 5px 0px;
+}
+
+.intro_aside {
+	width: 740px;
+	height: 100px;
+	border-left: 1px solid black;
+	margin: 0 auto;
+	line-height: 30px;
+	padding: 10px 20px 10px 20px;
+	font-style: italic;
+
+}
+
+
+.history {
+	width: 740px;
+	height: 200px;
+	margin: 0 auto;
+	background-color: #F2F1E8;
+	font-family: 'Lora', serif;
+	line-height: 30px;
+	padding: 20px 130px 20px 130px;
+}
+
+.centerbar {
+	background-image: url(./images/background-3.jpg);
+	background-size: 1000px 750px;
+	width: 1000px;
+	height: 250px;
+	margin: 0 auto;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.centerbar h2{
+	text-align: center;
+	font-size: 72px;
+	color: white;
+	font-family: 'Lora', serif;
+	margin: 0 auto;
+	padding-top: 75px;
+
+}
+
+.facilities {
+	width: 740px;
+	height: 260px;
+	margin: 0 auto;
+	background-color: #F2F1E8;
+	font-family: 'Lora', serif;
+	line-height: 30px;
+	padding: 20px 130px 0px 130px;
+}
+.sidebar {
+	float: right;
+	width: 200px;
+	height: 300px;
+	margin: 40px 0px 0px 15px;
+}
+
+.sidebar p {
+	text-align: left;
+	font-family: 'Lora', serif;
+	font-size: 14px;
+	text-align: left;
+	line-height: 25px;
+	padding: 0px 5px 0px 5px;
+	margin: 0 auto;
+}
+
+.monthly_plans {
+	width: 740px;
+	height: 400px;
+	margin: 0 auto;
+	background-color: #F2F1E8;
+	font-family: 'Lora', serif;
+	line-height: 30px;
+	padding: 1px 130px 0px 130px;
+}
+
+table{
+	margin: 0 auto;
+	width: 740px;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+tr, th, td {
+	border: 1px solid black;
+	padding: 15px;
+	border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2
+}
+
+/*////////////////////////////////////////////////Newletter Page////////////////////*/
+
+
+.newsletter h2 {
+	font-size: 16px;
+}
+
+
+
+.newsletter header {
+	width: 1000px;
+	height: 50px;
+}
+
+
+.newsletter .container {
+	background-image: url(./images/background-2.jpg);
+	background-size: 1000px 600px;
+	width: 1000px;
+	height: 500px;
+	margin: 0 auto;
+}
+
+.signupform {
+	width: 600px;
+	height: 300px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px;
+}
+
+form {
+	width: 550px;
+	height: 275px;
+	background: white;
+   	border: 2px solid #968772;
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px;
+	margin-top: 20px;
+	position: fixed;
+}
+
+#name {
+	width: 450px;
+	height: 20px;
+	border: hidden;
+	border-bottom: 2px solid #968772;
+	font-family: 'Roboto', serif;
+	font-size: 18px;
+
+}
+
+#email {
+	width: 450px;
+	height: 20px;
+	border: hidden;
+	border-bottom: 2px solid #968772;
+}
+
+#submit {
+	width: 125px;
+	height: 50px;
+	background: #968772;
+	font-family: 'Roboto', serif;
+	font-size: 18px;
+	color: #F2F1E8;
+	border: 0px;
+
+}
+
+#submit:hover {
+	background: #967343;
+	color: #FFFFFF;
+}
+
+
+
+}
